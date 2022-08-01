@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm64v8` builds of [the `crate` official image](https://hub.docker.com/_/crate) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -27,6 +29,8 @@ WARNING:
 -	[`5.0.0`, `5.0`, `latest`](https://github.com/crate/docker-crate/blob/027b745bf6992d41e09cd3cca4a5724cc3cd8455/Dockerfile)
 -	[`4.8.2`, `4.8`](https://github.com/crate/docker-crate/blob/dac9d7aabfacabe1f3506a1d4a7f0d68c7eed98c/Dockerfile)
 -	[`4.7.3`, `4.7`](https://github.com/crate/docker-crate/blob/576eec9d5bf6ae0a808537e73b6c1ece62e5a4cd/Dockerfile)
+
+[![arm64v8/crate build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/crate.svg?label=arm64v8/crate%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/crate/)
 
 # Quick reference (cont.)
 
@@ -77,7 +81,7 @@ CrateDB provides an [Admin UI](https://crate.io/docs/crate/admin-ui/):
 Spin up this Docker image like so:
 
 ```console
-$ docker run --publish 4200:4200 --publish 5432:5432 crate -Cdiscovery.type=single-node
+$ docker run --publish 4200:4200 --publish 5432:5432 arm64v8/crate -Cdiscovery.type=single-node
 ```
 
 Visit the [getting started](https://crate.io/docs/crate/tutorials/en/latest/install-run/) page to see all the available download and install options.

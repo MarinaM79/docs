@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm64v8` builds of [the `amazonlinux` official image](https://hub.docker.com/_/amazonlinux) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,12 +26,12 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.0.20220606.1`, `2`, `latest`](https://github.com/amazonlinux/container-images/blob/c40d99df881e3ffdf7e4afc75f63c5d7e9e9cdff/Dockerfile)
--	[`2.0.20220606.1-with-sources`, `2-with-sources`, `with-sources`](https://github.com/amazonlinux/container-images/blob/5a5b6a174313cfcc9b257cbfb3edcae37a8dd186/Dockerfile)
--	[`2018.03.0.20220609.0`, `2018.03`, `1`](https://github.com/amazonlinux/container-images/blob/7a44cc6ff549a6b4abc33d73bca88eae66c31ddc/Dockerfile)
--	[`2018.03.0.20220609.0-with-sources`, `2018.03-with-sources`, `1-with-sources`](https://github.com/amazonlinux/container-images/blob/46eae60b7768b53eba5fce016d3081d23fd4a670/Dockerfile)
--	[`2022.0.20220628.8`, `2022`, `devel`](https://github.com/amazonlinux/container-images/blob/d83f9e2805292583b9bdf43fe6d5e959a3563de8/Dockerfile)
--	[`2022.0.20220628.8-with-sources`, `2022-with-sources`, `devel-with-sources`](https://github.com/amazonlinux/container-images/blob/b123666c1e4c23edaccd8ce06083155b9ada5c79/Dockerfile)
+-	[`2.0.20220606.1`, `2`, `latest`](https://github.com/amazonlinux/container-images/blob/dfa668c553b7a55b45e1ac0563d2e1fd3065208b/Dockerfile)
+-	[`2.0.20220606.1-with-sources`, `2-with-sources`, `with-sources`](https://github.com/amazonlinux/container-images/blob/31e8c3ce20300fda6123e190cf579315e26f843e/Dockerfile)
+-	[`2022.0.20220628.8`, `2022`, `devel`](https://github.com/amazonlinux/container-images/blob/ef9808b6dbfda586e241b5df1c4860f964dc4d35/Dockerfile)
+-	[`2022.0.20220628.8-with-sources`, `2022-with-sources`, `devel-with-sources`](https://github.com/amazonlinux/container-images/blob/6ff44cdfc50db84d87366defe573ec97876073cc/Dockerfile)
+
+[![arm64v8/amazonlinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/amazonlinux.svg?label=arm64v8/amazonlinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/amazonlinux/)
 
 # Quick reference (cont.)
 
