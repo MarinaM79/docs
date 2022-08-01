@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm32v5` builds of [the `amazonlinux` official image](https://hub.docker.com/_/amazonlinux) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,12 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.0.20220606.1`, `2`, `latest`](https://github.com/amazonlinux/container-images/blob/c40d99df881e3ffdf7e4afc75f63c5d7e9e9cdff/Dockerfile)
--	[`2.0.20220606.1-with-sources`, `2-with-sources`, `with-sources`](https://github.com/amazonlinux/container-images/blob/5a5b6a174313cfcc9b257cbfb3edcae37a8dd186/Dockerfile)
--	[`2018.03.0.20220609.0`, `2018.03`, `1`](https://github.com/amazonlinux/container-images/blob/7a44cc6ff549a6b4abc33d73bca88eae66c31ddc/Dockerfile)
--	[`2018.03.0.20220609.0-with-sources`, `2018.03-with-sources`, `1-with-sources`](https://github.com/amazonlinux/container-images/blob/46eae60b7768b53eba5fce016d3081d23fd4a670/Dockerfile)
--	[`2022.0.20220628.8`, `2022`, `devel`](https://github.com/amazonlinux/container-images/blob/d83f9e2805292583b9bdf43fe6d5e959a3563de8/Dockerfile)
--	[`2022.0.20220628.8-with-sources`, `2022-with-sources`, `devel-with-sources`](https://github.com/amazonlinux/container-images/blob/b123666c1e4c23edaccd8ce06083155b9ada5c79/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `arm32v5` ARCHITECTURE
+
+[![arm32v5/amazonlinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm32v5/job/amazonlinux.svg?label=arm32v5/amazonlinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v5/job/amazonlinux/)
 
 # Quick reference (cont.)
 
